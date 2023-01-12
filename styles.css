@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto';
+    background-color:rgb(64, 68, 64);
+    color: rgb(255, 255, 255);
+}
+
+img {
+  filter: grayscale(100%);
+}
+
+hr {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background:rgb(31, 32, 31);
+  opacity: 0.2;
+}
+
+/* HEADER */
+
+.my-name {
+    font-size: 500%;
+    font-weight: normal;
+    display: grid;
+    padding: 0 0 0 3%;
+    text-decoration: none;
+    text-align: left;
+    list-style: none;
+    position: relative;
+}
+
+.what-i-do {
+    font-size: 112%;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: left;
+    list-style: none;
+    position: relative;
+    left: 70%;
+    top: 60%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+  }
+
+.slideshow-container {
+   padding-left: 20px;
+}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display:none;
+ }
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  margin-top: -22px;
+  margin-right: 1.1%;
+  padding: 16px;
+  color: white;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* ABOUT ME */
+
+.about-me{
+  display: grid;
+  grid-template-columns: 60% 65%;
+  padding-top: 20px;
+}
+
+.about-me-text{
+  font-size: 350%;
+  font-weight: normal;
+  padding: 20% 0 0 10%;
+  text-decoration: none;
+  text-align: left;
+  list-style: none;
+  position: relative;
+}
+
+.info-about-me{
+  font-size: 100%;
+  font-weight: normal;
+  padding: 5px 0 0 35%;
+  text-decoration: none;
+  text-align: left;
+  list-style: none;
+  position: relative;
+}
+
+.my-picture{
+  position: relative;
+}
+
+/* MY WORK */
+
+.my-work{
+  display: grid;
+  grid-template-columns: 45% 60%;
+  padding-top: 10%;
+  padding-left: 20px;
+}
+
+.my-work-text{
+  padding-left: 5%;
+  padding-top: 20%;
+  padding-bottom: 3%;
+}
+
+.artwork{
+  font-size: 100%;
+  position: relative;
+  display: flex;
+  grid-template-columns: 50% 50%;
+  list-style: none;
+  padding-right: 10%;
+  gap: 5%;
+  
+}
+
+.my-work-two{
+  display: grid;
+  grid-template-columns: 15% 44% 58.2%;
+  list-style: none;
+  padding: 10% 0 0 20px;
+}
+
+.lamps{
+  font-size: 100%;
+  display: flex;
+  list-style: none;
+  padding-top: 30%;
+  padding-right: 10px;
+}
+
+.lamps-pic{
+  list-style: none;
+}
+
+.sunset{
+  font-size: 100%;
+  list-style: none;
+  padding-right: 100px;
+}
+
+.quote{
+  padding: 10% 0 0 2%;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 50% 15% 35%;
+}
+
+.life-quote{
+  list-style: none;
+  padding-right: 20px;
+}
+
+.location{
+  font-size: 100%;
+  padding-right: 10px;
+  padding-top: 290%;
+}
+
+
+/* CONTACT */
+
+.contact{
+  padding-top: 10%;
+  padding-left: 2%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.social-contact{
+  font-size: 100%;
+}
