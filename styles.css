@@ -27,7 +27,7 @@ hr {
 /* HEADER */
 
 .my-name {
-    font-size: 500%;
+    font-size: 7vw;
     font-weight: normal;
     display: grid;
     padding: 0 0 0 3%;
@@ -38,7 +38,7 @@ hr {
 }
 
 .what-i-do {
-    font-size: 112%;
+    font-size: 2vw;
     font-weight: normal;
     text-decoration: none;
     text-align: left;
@@ -51,11 +51,11 @@ hr {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 20px;
+    padding: 2%;
   }
 
 .slideshow-container {
-   padding-left: 20px;
+   padding-left: 2%;
 }
 
 .slideshow-container {
@@ -72,19 +72,19 @@ hr {
   position: absolute;
   top: 45%;
   width: auto;
-  margin-top: -22px;
+  margin-top: -2%;
   margin-right: 1.1%;
-  padding: 16px;
+  padding: 1%;
   color: white;
-  font-size: 20px;
+  font-size: 2vw;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0 3% 3% 0;
   user-select: none;
 }
 
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 3% 0 0 3%;
 }
 
 .prev:hover, .next:hover {
@@ -97,13 +97,13 @@ hr {
 .about-me{
   display: grid;
   grid-template-columns: 60% 65%;
-  padding-top: 20px;
+  padding-left: 3%;
 }
 
 .about-me-text{
-  font-size: 350%;
+  font-size: 6vw;
   font-weight: normal;
-  padding: 20% 0 0 10%;
+  padding: 10% 0 0 10%;
   text-decoration: none;
   text-align: left;
   list-style: none;
@@ -111,9 +111,9 @@ hr {
 }
 
 .info-about-me{
-  font-size: 100%;
+  font-size: 1.6vw;
   font-weight: normal;
-  padding: 5px 0 0 35%;
+  padding: 0 0 0 35%;
   text-decoration: none;
   text-align: left;
   list-style: none;
@@ -130,13 +130,15 @@ hr {
   display: grid;
   grid-template-columns: 45% 60%;
   padding-top: 10%;
-  padding-left: 20px;
+  padding-left: 2%;
 }
 
 .my-work-text{
   padding-left: 5%;
   padding-top: 20%;
   padding-bottom: 3%;
+  list-style: none;
+  font-size: 4.5vw;
 }
 
 .artwork{
@@ -154,15 +156,15 @@ hr {
   display: grid;
   grid-template-columns: 15% 44% 58.2%;
   list-style: none;
-  padding: 10% 0 0 20px;
+  padding: 10% 0 0 3%;
 }
 
 .lamps{
-  font-size: 100%;
+  font-size: 1.6vw;
   display: flex;
   list-style: none;
   padding-top: 30%;
-  padding-right: 10px;
+  padding-right: 10%;
 }
 
 .lamps-pic{
@@ -170,9 +172,9 @@ hr {
 }
 
 .sunset{
-  font-size: 100%;
+  font-size: 1.6vw;
   list-style: none;
-  padding-right: 100px;
+  padding-right: 9.5%;
 }
 
 .quote{
@@ -184,12 +186,12 @@ hr {
 
 .life-quote{
   list-style: none;
-  padding-right: 20px;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .location{
-  font-size: 100%;
-  padding-right: 10px;
+  font-size: 1.6vw;
   padding-top: 290%;
 }
 
@@ -204,5 +206,5 @@ hr {
 }
 
 .social-contact{
-  font-size: 100%;
+  font-size: 1.6vw;
 }
